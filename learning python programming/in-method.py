@@ -2,6 +2,8 @@
 def contains(big_string, little_string):
   return little_string in big_string
 
+print(contains('i am rajat verma', 'verma'))
+
 def common_letters(string_one, string_two):
   common = []
   for letter in string_one:
